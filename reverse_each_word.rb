@@ -1,8 +1,7 @@
 def reverse_each_word(string)
-split_sentence = []
-split_sentence << string.split
-p split_sentence
-split_sentence.each {|word| p word.reverse}
+result = []
+split_sentence = string.split
+split_sentence.each {|word| word.reverse}
 end
 
 
