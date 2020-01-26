@@ -1,9 +1,6 @@
 def reverse_each_word(string)
 result = []
-split_sentence = string.split
-split_sentence.each {|word| word.reverse}
-result << split_sentence
-result.join(" ")
+
 end
 
 
