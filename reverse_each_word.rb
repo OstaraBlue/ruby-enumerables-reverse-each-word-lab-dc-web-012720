@@ -5,3 +5,4 @@ b = a.map {|word| word.reverse}
 b.join(" ")
 end
 
+def reverse_each_word(string)
